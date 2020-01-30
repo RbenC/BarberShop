@@ -13,16 +13,17 @@ $raisinblack:#222323;
 $nickel:#6C6E70;
 
 //FontFamily
-$roboto: 'Roboto', sans-serif;
-$playfair: 'Playfair Display', serif;
-$open-sans: 'Open Sans', sans-serif;
-
+$playfair: 'Playfair Display', 'serif';
+$roboto: 'Roboto', 'sans-serif';
+$open-sans: 'Open Sans', 'sans-serif';
 
 //Tipography
 //Font weight
 $light: 300;
 $regular: 400;
-$bold: 900i;
+$bold: 900;
+$italic: 700;
+
 
 // Font Sizes
 $xx-large: 70px;
@@ -30,4 +31,3 @@ $x-large: 30px;
 $large: 18px;
 $medium: 16px;
 $small: 12px;
-

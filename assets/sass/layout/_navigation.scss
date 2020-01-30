@@ -1,26 +1,18 @@
-.navbar {
-	background-color: $eerieblack;
-    border-bottom: 1px solid darken($eerieblack, 20%);
+/* cambiar tipo de letra */
+nav.navbar ul.nav li {
+    font-family: $roboto;
+    color: $white;
 }
 
-.navbar-dark .navbar-nav  > .nav-link {
-    background-color: $white;
+/* cambiar el color de fondo a la barra */
+nav.navbar {
+    background-color: $eerieblack;
 }
 
-.nav-link {
-    &:hover {
-        background-color: $fuzzywyzzy;
-    }
+nav img {
+  width: 100px
 }
 
-.header {
-  background-color: $eerieblack;
-  
-  &__logo {
-    height: auto;
-    margin: 0 0 0 70px;
-    width: 100px;
-  }
+nav a:hover {
+  color: $fuzzywyzzy;
 }
-
-

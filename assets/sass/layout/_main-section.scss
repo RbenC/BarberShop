@@ -1,8 +1,8 @@
 .section-wrapper {
   font-family: $roboto;
   font-weight: $regular;
-  margin: 0 auto;
-  width: 80%;
+  margin-top: 190px;
+  width: 100%;  
 }
 
 .main-section {
@@ -39,12 +39,12 @@ font-size: $xx-large;
   @extend .section-wrapper;
   background-color: $white;
   color: $white;
-  padding: 70px 0 50px;
+  padding: 90px 0 70px;
   text-align: center;
 
   &--light {
     background-color: $white;
-    color: $lightgray;
+    color: $raisinblack;
   }
 
   &__banner {
