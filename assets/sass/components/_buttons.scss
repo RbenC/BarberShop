@@ -1,0 +1,32 @@
+/* Buttons */
+.button {
+padding: .7rem 2rem;
+border-radius: 12px;
+font-family: $open-sans;
+font-size: $small;
+background-color: $nickel;
+color: $white;
+&:hover {
+background-color: $fuzzywyzzy;
+border-color: $fuzzywyzzy;
+color: $white;
+}
+}
+
+.button_default {
+padding: .7rem 2rem;
+border-radius: 12px;
+font-family: $open-sans;
+font-size: $small;
+background-color: $nickel;
+color: $white;
+}
+
+.button_positive {
+background-color: $fuzzywyzzy;
+border-color: $fuzzywyzzy;
+&:hover {
+background-color: $nickel;
+border-color: $nickel;
+}
+}

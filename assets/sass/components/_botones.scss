@@ -1,0 +1,25 @@
+// Buttons */
+.button {
+text-decoration: none;
+margin-left: 2rem;
+padding: .7rem 2rem;
+border-radius: 30px;
+font-family: $roboto;
+font-size: $medium;
+color: $white;
+  &:hover {
+  background-color: $nickel;
+  border-color: $nickel;
+  }
+}
+
+.button_positive {
+  text-decoration: none;
+  background-color: $nickel;
+  border-color: $nickel;
+    &:hover {
+      opacity: 0.6;
+      background-color: $lightgray;
+      border-color: $lightgray;
+    }
+}
