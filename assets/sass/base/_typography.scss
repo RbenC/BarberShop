@@ -1,6 +1,12 @@
 /* Base Typography*/
+<<<<<<< HEAD
 h1, h2, h3, h4, h5, h6 {
 font-family: $roboto;
 font-weight: $light;
+=======
+h1, h3, h4, h5, h6 {
+font-family: $open-sans;
+font-weight: $regular;
+>>>>>>> 1e5509779e9d1313ab240a6738b7535fe6351264
 font-size: $medium;
 }

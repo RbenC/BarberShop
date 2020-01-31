@@ -1,5 +1,22 @@
+<<<<<<< HEAD
 body {
   background-color: #FFF;
+=======
++ {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Base Typography*/
+h1, h3, h4, h5, h6 {
+  font-family: "Open Sans", "sans-serif";
+  font-weight: 400;
+  font-size: 16px;
+>>>>>>> 1e5509779e9d1313ab240a6738b7535fe6351264
 }
 
 /* Base Styles*/
@@ -8,6 +25,7 @@ body {
   background-color: #FFF;
 }
 
+<<<<<<< HEAD
 /* Reset*/
 body {
   margin: 0;
@@ -22,6 +40,31 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", "sans-serif";
   font-weight: 300;
   font-size: 16px;
+=======
+/* cambiar tipo de letra */
+nav.navbar ul.nav li {
+  font-family: "Roboto", "sans-serif";
+  color: #FFF;
+}
+
+/* cambiar el color de fondo a la barra */
+nav.navbar {
+  background-color: #121619;
+}
+
+nav img {
+  width: 100px;
+}
+
+nav a:hover {
+  color: #E56353;
+}
+
+.logo {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+>>>>>>> 1e5509779e9d1313ab240a6738b7535fe6351264
 }
 
 .main {
@@ -60,6 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 150px;
 }
 
+<<<<<<< HEAD
 .rrss {
   margin: 50px;
 }
@@ -84,6 +128,11 @@ h1, h2, h3, h4, h5, h6 {
 .caja p span {
   font-size: 16px;
   color: #E56353;
+=======
+.rrss img {
+  margin-left: 150px;
+  width: 100px;
+>>>>>>> 1e5509779e9d1313ab240a6738b7535fe6351264
 }
 
 .nombrepropio {
@@ -93,6 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .paginar {
+<<<<<<< HEAD
   background-color: #D1D1D1;
 }
 
@@ -173,6 +223,44 @@ footer img {
   opacity: 0.6;
   background-color: #D1D1D1;
   border-color: #D1D1D1;
+=======
+  text-align: center;
+  left: 50%;
+  top: 9.5vh;
+}
+
+/* Buttons */
+.button {
+  padding: 0.7rem 2rem;
+  border-radius: 12px;
+  font-family: "Open Sans", "sans-serif";
+  font-size: 12px;
+  background-color: #6C6E70;
+  color: #FFF;
+}
+.button:hover {
+  background-color: #E56353;
+  border-color: #E56353;
+  color: #FFF;
+}
+
+.button_default {
+  padding: 0.7rem 2rem;
+  border-radius: 12px;
+  font-family: "Open Sans", "sans-serif";
+  font-size: 12px;
+  background-color: #6C6E70;
+  color: #FFF;
+}
+
+.button_positive {
+  background-color: #E56353;
+  border-color: #E56353;
+}
+.button_positive:hover {
+  background-color: #6C6E70;
+  border-color: #6C6E70;
+>>>>>>> 1e5509779e9d1313ab240a6738b7535fe6351264
 }
 
 /*# sourceMappingURL=main.css.map */

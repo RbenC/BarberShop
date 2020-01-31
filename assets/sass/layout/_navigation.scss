@@ -1,9 +1,28 @@
+<<<<<<< HEAD
+=======
+/* cambiar tipo de letra */
+nav.navbar ul.nav li {
+    font-family: $roboto;
+    color: $white;
+}
+
+>>>>>>> 1e5509779e9d1313ab240a6738b7535fe6351264
 /* cambiar el color de fondo a la barra */
 nav.navbar {
     background-color: $eerieblack;
 }
+<<<<<<< HEAD
 /* cambiar tipo de letra */
 
 .navbar-brand img {
   width: 40%;
+=======
+
+nav img {
+  width: 100px
+}
+
+nav a:hover {
+  color: $fuzzywyzzy;
+>>>>>>> 1e5509779e9d1313ab240a6738b7535fe6351264
 }
